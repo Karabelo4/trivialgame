@@ -1,0 +1,45 @@
+.root {
+    -fx-background-color: #f0f0f0; /* Set background color */
+}
+
+.question-label {
+    -fx-font-size: 24px; /* Set font size */
+    -fx-font-weight: bold; /* Set font weight to bold */
+}
+
+.option-button {
+    -fx-background-color: #4CAF50; /* Set background color */
+    -fx-text-fill: white; /* Set text color */
+    -fx-font-size: 18px; /* Set font size */
+    -fx-font-weight: bold; /* Set font weight to bold */
+    -fx-padding: 10px 20px; /* Set padding */
+}
+
+.option-button:hover {
+    -fx-background-color: #45a049; /* Change background color on hover */
+}
+
+.score-label {
+    -fx-font-size: 18px; /* Set font size */
+    -fx-font-weight: bold; /* Set font weight to bold */
+}
+
+.final-score-label {
+    -fx-font-size: 36px; /* Set font size */
+    -fx-font-weight: bold; /* Set font weight to bold */
+    -fx-text-fill: #4CAF50; /* Set text color */
+}
+
+/* Box around images and text */
+.content-box {
+    -fx-border-color: black; /* Set border color */
+    -fx-border-width: 2px; /* Set border width */
+    -fx-padding: 20px; /* Set padding */
+}
+
+/* Box around video */
+.video-box {
+    -fx-border-color: black; /* Set border color */
+    -fx-border-width: 2px; /* Set border width */
+    -fx-padding: 20px; /* Set padding */
+}
